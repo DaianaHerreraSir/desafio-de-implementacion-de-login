@@ -41,7 +41,7 @@ app.use(cookieParser("palabraparafirmarcookies"))
 app.use (session({
     store: MongoStore.create({
 
-        mongoUrl: "mongodb+srv://dherrerasir:mongodb2024@cluster0.2cm3474.mongodb.net/ecommerce?retryWrites=true&w=majority",
+        mongoUrl: "",
         mongoOptions: {
             useNewUrlParser: true,
             useUnifiedTopology: true,
